@@ -1,0 +1,78 @@
+
+<div style="text-align:center">
+ <h1>
+   Welcome!
+ </h1>
+ <button (click)="getData()">Fetch Data</button>
+ 
+<!-- <li *ngFor="let user of data">
+  {{user.Provider}}
+</li> -->
+<!-- <ul>
+  <li *ngFor="let user of data">{{ data.Length }},{{data.Provider}}</li>
+</ul> -->
+<!-- <ul *ngFor="let user of data">
+  <h5 class="card-title">{{c.Course_Id}}</h5>
+          <h5 class="card-title">{{ c.Course_Name}}</h5>
+          <h5 class="card-title">{{ c.Provider}}</h5>
+          <h5 class="card-title">{{ c.Universities/Institutions}}</h5>
+          <h5 class="card-title">{{ c.Parent_Subject}}</h5>
+          <h5 class="card-title">{{ c.Child_Subject}}</h5> 
+          <a href="c.[Url]" class="card-link">LINK</a>
+          <h5 class="card-title">{{ c.[Next_Session_Date]}}</h5>
+          
+          <a href="c.[Video(Url)]" class="card-link">LINK</a>
+</ul> -->
+<!--
+ {{data}} -->
+</div>
+<!-- <div class="container">
+<div class = "row">
+
+<div class = "col"> -->
+
+
+    <!-- <div class="card" >
+        <div class="card-body" *ngFor="let c for data"> -->
+          <!-- <h5 class="card-title">{{c.Course_Id}}</h5>
+          <h5 class="card-title">{{ c.Course_Name}}</h5>
+          <h5 class="card-title">{{ c.Provider}}</h5>
+          <h5 class="card-title">{{ c.Universities/Institutions}}</h5>
+          <h5 class="card-title">{{ c.Parent_Subject}}</h5>
+          <h5 class="card-title">{{ c.Child_Subject}}</h5> -->
+          <!-- <a href="c.[Url]" class="card-link">LINK</a>
+          <h5 class="card-title">{{ c.[Next_Session_Date]}}</h5>
+          
+          <a href="c.[Video(Url)]" class="card-link">LINK</a>
+
+           -->
+           <!-- <h5>{{c.Provider}}</h5>
+        </div>
+
+      </div> -->
+      <div *ngFor="let user of data" class="container">
+        <div class="card">
+          <h5 class="card-title">{{c.Course_Id}}</h5>
+          <h5 class="card-title">{{ c.Course_Name}}</h5>
+          <h5 class="card-title">{{ c.Provider}}</h5>
+          <h5 class="card-title">{{ c.Universities/Institutions}}</h5>
+          <h5 class="card-title">{{ c.Parent_Subject}}</h5>
+          <h5 class="card-title">{{ c.Child_Subject}}</h5> 
+          <a href="c.[Url]" class="card-link">LINK</a>
+          <h5 class="card-title">{{ c.[Next_Session_Date]}}</h5>
+          
+          <a href="c.[Video(Url)]" class="card-link">LINK</a>
+       
+      </div>
+
+
+       </div>
+          
+     
+
+
+<!-- </div>
+
+</div>
+
+</div> -->
